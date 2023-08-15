@@ -3,7 +3,9 @@ const path = require('path');
 const app = express();
 const notesData = require('./db/db.json');
 const fs = require('fs');
+const uniqid = require('uniqid');
 const { readFromFile, writeToFile, readAndAppend } = require('./helpers/fsUtils');
+
 
 
 
@@ -37,6 +39,10 @@ app.post('/api/notes', (req, res) => {
 
     readAndAppend(req.body, './db/db.json')
     res.send();
+})
+
+app.delete('/api/notes/id', (req, res) => {
+
 })
 
 
