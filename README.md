@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# C11 Note Taker
+# Note Taker
 
-## Challenge 11 in MSU Bootcamp
+## Description
 
 This is a full-stack note taker application.  In order to be a productive human it is important for one to be able to organize their thoughts and keep track of tasks that need completion.  The note taker is an easy and convienient way to help achieve this.
 
@@ -14,7 +14,7 @@ Screenshots:
 
 Website URL: https://c11note-taker-c7815645ba23.herokuapp.com/
 
-Github Repository: https://github.com/KKurzawa/C11-Note-Taker
+Github Repository: https://github.com/KKurzawa/Note-Taker
 
 
 
